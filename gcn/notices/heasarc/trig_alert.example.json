@@ -4,14 +4,14 @@
   "alert_datetime": "2026-08-06T14:49:13Z",
   "alert_tense": "archival",
   "alert_type": "initial",
-  "data_archive_page": "fermi/data/obs/trigger/",
-  "data_archive_s3": "fermi/data/obs/trigger/",
-  "trigger": "fermi/data/obs/trigger/grb_240615_123456.txt",
+  "data_archive_page": "https://heasarc.gsfc.nasa.gov/FTP/blackcat/data/obs/trigger/",
+  "data_archive_s3": "https://nasa-heasarc.s3.amazonaws.com/blackcat/data/obs/trigger/",
+  "trigger": "blackcat/data/obs/trigger/grb_240615_123456.txt",
   "trigger_id": "GRB240615A",
   "trigger_time": "2024-06-15T12:34:56Z",
   "s_ra": 123.456,
   "s_dec": -45.678,
-  "mission_page": "https://heasarc.gsfc.nasa.gov/docs/fermi/",
-  "facility_name": "Fermi",
-  "instrument_name": "GBM"
+  "mission_page": "https://heasarc.gsfc.nasa.gov/docs/blackcat/",
+  "facility_name": "BlackCAT",
+  "instrument_name": "BlackCAT"
 }
