@@ -1,0 +1,23 @@
+{
+  "$schema": "https://gcn.nasa.gov/schema/main/gcn/notices/heasarc/trigger_alert.schema.json",
+  "service": "HEASARC",
+  "alert_datetime": "2026-08-06T14:49:13Z",
+  "alert_tense": "archival",
+  "alert_type": "initial",
+  "data_archive_page": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers",
+  "data_archive_s3": "https://nasa-heasarc.s3.amazonaws.com/fermi/data/gbm/triggers/",
+  "trigger": "fermi/data/gbm/triggers/2008/bn080912360/current/glg_trigdat_all_bn080912360_v01.fit",
+  "trigger_id": "bn080912360",
+  "trigger_time": "2024-06-15T12:34:56Z",
+  "trigger_type": "GRB",
+  "reliability": 0.3647,
+  "localization_source": "Fermi, GBM",
+  "trigger_timescale": 2048,
+  "s_ra": 25.8,
+  "s_dec": -7.2,
+  "mission_page": "https://fermi.gsfc.nasa.gov/",
+  "facility_name": "Fermi",
+  "mission": "Fermi",
+  "instrument": "GBM",
+  "instrument_name": "GBM"
+}

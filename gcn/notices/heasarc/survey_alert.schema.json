@@ -1,0 +1,20 @@
+{
+  "$id": "https://gcn.nasa.gov/schema/main/gcn/notices/heasarc/survey_alert.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "HEASARC - Survey Data in Archive",
+  "description": "Survey Data Archived at HEASARC",
+  "allOf": [{ "$ref": "./alert_base.schema.json" }],
+  "required": [
+    "instrument",
+    "data_archive_page",
+    "observation_start",
+    "observation_stop",
+    "t_min",
+    "t_max"
+  ],
+  "properties": {
+    "$schema": { "type": "string", "format": "uri" }
+  },
+  "unevaluatedProperties": false
+}

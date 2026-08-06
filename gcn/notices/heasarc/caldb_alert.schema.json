@@ -1,0 +1,25 @@
+{
+  "$id": "https://gcn.nasa.gov/schema/main/gcn/notices/heasarc/caldb_alert.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "HEASARC - Calibration Data in Archive",
+  "description": "Calibration Data Archived at HEASARC",
+  "allOf": [{ "$ref": "./alert_base.schema.json" }],
+  "required": ["caldb_version"],
+  "properties": {
+    "$schema": { "type": "string", "format": "uri" },
+    "caldb_version": {
+      "type": "string",
+      "description": "Version of the calibration data."
+    },
+    "release_date": {
+      "type": "string",
+      "description": "Date when the calibration data is being released."
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description outlining the changes/updates made to the calibration data."
+    }
+  },
+  "unevaluatedProperties": false
+}
