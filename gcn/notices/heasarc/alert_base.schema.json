@@ -1,0 +1,31 @@
+{
+  "$id": "https://gcn.nasa.gov/schema/v6.3.0/gcn/notices/heasarc/alert_base.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "HEASARC - Data in Archive",
+  "description": "Data Archived at HEASARC",
+  "allOf": [
+    { "$ref": "../core/Alert.schema.json" },
+    { "$ref": "../core/DateTime.schema.json" },
+    { "$ref": "../core/Event.schema.json" },
+    { "$ref": "../core/Reporter.schema.json" }
+  ],
+  "properties": {
+    "facility_name": {
+      "type": "string",
+      "description": "Name of the mission/creator of the data. [IVOA ObsCore]"
+    },
+    "instrument_name": {
+      "type": "string",
+      "description": "Name of the instrument used for the observation. [IVOA ObsCore]"
+    },
+    "data_archive_s3": {
+      "type": "string",
+      "description": "The base URL of the AWS S3 bucket mirroring the data."
+    },
+    "mission_page": {
+      "type": "string",
+      "description": "Web page of the creator mission at HEASARC"
+    }
+  }
+}

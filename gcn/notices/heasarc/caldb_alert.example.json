@@ -1,0 +1,15 @@
+{
+    "$schema": "https://gcn.nasa.gov/schema/v6.3.0/gcn/notices/heasarc/caldb_alert.schema.json",
+    "mission": "HEASARC",
+    "alert_datetime": "2026-08-06T14:49:13Z",
+    "alert_tense": "archival",
+    "alert_type": "initial",
+    "data_archive_page": "https://heasarc.gsfc.nasa.gov/FTP/caldb/data/ixpe/",
+    "data_archive_s3": "https://nasa-heasarc.s3.amazonaws.com/caldb/data/ixpe/",
+    "caldb_version": "20240615",
+    "release_date": "2024-06-15",
+    "description": "Updated response matrices and quantum efficiency",
+    "mission_page": "https://heasarc.gsfc.nasa.gov/docs/ixpe/caldb",
+    "facility_name": "IXPE",
+    "instrument_name": "IXPE"
+}

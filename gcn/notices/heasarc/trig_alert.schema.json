@@ -1,0 +1,28 @@
+{
+  "$id": "https://gcn.nasa.gov/schema/v6.3.0/gcn/notices/heasarc/trig_alert.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "HEASARC - Trigger Data in Archive",
+  "description": "Trigger Data Archived at HEASARC",
+  "allOf": [
+    { "$ref": "./alert_base.schema.json" }
+  ],
+  "properties": {
+    "trigger": {
+      "type": "string",
+      "description": "The file that triggers the alert.  Applies to Fermi GBM triggers."
+    },
+    "trigger_id": {
+      "type": "string",
+      "description": "The trigger identifier of the sequence. Also called the trigger id or trigger sequence, it is a series of numerical digits, each signifying different aspects for the trigger, such as AO year, proposal number, and target number. Each mission has their own specification for how the trigger id is defined. Every trigger by an observatory is identified by the trigger id. The data set identified by the trigger id contains the level one and level 2 data created by that mission's processing pipeline."
+    },
+    "s_ra": {
+      "type": "number",
+      "description": "Right ascension of pointing in decimal degrees. [IVOA ObsCore]"
+    },
+    "s_dec": {
+      "type": "number",
+      "description": "Declination of pointing in decimal degrees. [IVOA ObsCore]"
+    }
+  }
+}

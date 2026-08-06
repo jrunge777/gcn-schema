@@ -1,0 +1,17 @@
+{
+  "$schema": "https://gcn.nasa.gov/schema/v6.3.0/gcn/notices/heasarc/trig_alert.schema.json",
+  "mission": "HEASARC",
+  "alert_datetime": "2026-08-06T14:49:13Z",
+  "alert_tense": "archival",
+  "alert_type": "initial",
+  "data_archive_page": "fermi/data/obs/trigger/",
+  "data_archive_s3": "fermi/data/obs/trigger/",
+  "trigger": "fermi/data/obs/trigger/grb_240615_123456.txt",
+  "trigger_id": "GRB240615A",
+  "trigger_time": "2024-06-15T12:34:56Z",
+  "s_ra": 123.456,
+  "s_dec": -45.678,
+  "mission_page": "https://heasarc.gsfc.nasa.gov/docs/fermi/",
+  "facility_name": "Fermi",
+  "instrument_name": "GBM"
+}

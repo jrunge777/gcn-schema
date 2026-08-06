@@ -1,0 +1,19 @@
+{
+    "$schema": "https://gcn.nasa.gov/schema/v6.3.0/gcn/notices/heasarc/obs_alert.schema.json",
+    "mission": "HEASARC",
+    "alert_datetime": "2026-08-06T14:49:13Z",
+    "alert_tense": "archival",
+    "alert_type": "initial",
+    "data_archive_page": "https://heasarc.gsfc.nasa.gov/FTP/ixpe/data/obs/01/01001899/",
+    "data_archive_s3": "https://nasa-heasarc.s3.amazonaws.com/ixpe/data/obs/01/01001899/",
+    "observation_start": "2022-02-17T13:52:46.841",
+    "obs_id": "01001899",
+    "target_name": "Her X-1",
+    "s_ra": 254.4575,
+    "s_dec": 35.3424,
+    "t_min": 59627.5783,
+    "t_max": 59634.8167,
+    "mission_page": "https://heasarc.gsfc.nasa.gov/docs/ixpe/",
+    "facility_name": "IXPE",
+    "instrument_name": "IXPE"
+}
