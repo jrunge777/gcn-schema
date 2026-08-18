@@ -4,9 +4,7 @@
   "type": "object",
   "title": "HEASARC - Calibration Data in Archive",
   "description": "Calibration Data Archived at HEASARC",
-  "allOf": [
-    { "$ref": "./alert_base.schema.json" }
-  ],
+  "allOf": [{ "$ref": "./alert_base.schema.json" }],
   "properties": {
     "caldb_version": {
       "type": "string",

@@ -4,9 +4,7 @@
   "type": "object",
   "title": "HEASARC - Observation Data in Archive",
   "description": "Observation Data Archived at HEASARC",
-  "allOf": [
-    { "$ref": "./alert_base.schema.json" }
-  ],
+  "allOf": [{ "$ref": "./alert_base.schema.json" }],
   "properties": {
     "obs_id": {
       "type": "string",

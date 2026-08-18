@@ -4,9 +4,7 @@
   "type": "object",
   "title": "HEASARC - Trigger Data in Archive",
   "description": "Trigger Data Archived at HEASARC",
-  "allOf": [
-    { "$ref": "./alert_base.schema.json" }
-  ],
+  "allOf": [{ "$ref": "./alert_base.schema.json" }],
   "properties": {
     "trigger": {
       "type": "string",
