@@ -13,7 +13,7 @@
   "properties": {
     "facility_name": {
       "type": "string",
-      "description": "Name of the mission/creator of the data. [IVOA ObsCore]"
+      "description": "Name of the mission that created the data. [IVOA ObsCore]"
     },
     "instrument_name": {
       "type": "string",

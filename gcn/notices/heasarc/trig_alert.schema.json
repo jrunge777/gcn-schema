@@ -12,7 +12,7 @@
     },
     "trigger_id": {
       "type": "string",
-      "description": "The trigger identifier of the sequence. Also called the trigger id or trigger sequence, it is a series of numerical digits, each signifying different aspects for the trigger, such as AO year, proposal number, and target number. Each mission has their own specification for how the trigger id is defined. Every trigger by an observatory is identified by the trigger id. The data set identified by the trigger id contains the level one and level 2 data created by that mission's processing pipeline."
+      "description": "The trigger identifier of the sequence. Also called the trigger id or trigger sequence, it is a series of numerical digits, each signifying different aspects for the trigger, such as Announcement of Opportunity (AO) year, proposal number, and target number. Each mission has their own specification for how the trigger id is defined. The data set identified by the trigger id contains the level 1 and level 2 data created by that mission's processing pipeline."
     },
     "s_ra": {
       "type": "number",
