@@ -2,7 +2,7 @@
   "$id": "https://gcn.nasa.gov/schema/main/gcn/notices/ivoa/ObsCore.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "ObsCore",
-  "description": "Observation Data Model Core Components (ObsCoreDM) v1.1 as approved by IVOA",
+  "description": "Observation Data Model Mandatory Core Components (ObsCoreDM) v1.1 as approved by IVOA",
   "type": "object",
   "properties": {
     "dataproduct_type": {
